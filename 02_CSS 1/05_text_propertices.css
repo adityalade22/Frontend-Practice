@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration: wavy red line-through
+}
+h2{
+    text-align:end;
+    font-weight: 700;
+    text-decoration: overline;
+}
+p{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    line-height: 1.1;
+    letter-spacing: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
