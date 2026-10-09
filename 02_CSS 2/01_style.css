@@ -1,0 +1,95 @@
+*{ /*  this is universal selector */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h3{
+    /* this is element selector */
+    color: #b92b27;
+}
+
+/* this is id selector */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* this is class selector */
+.upvote{
+    background-color: green;
+}
+
+/* this is descendant tag */
+p a{
+    color: purple;
+    background-color: yellow;
+}
+
+/* adjacent sibling comninator */
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+ button{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* child combinator */
+div>input{
+    background-color: darksalmon;
+}
+
+/* attribute selector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+
+#myId p{
+    color: green;
+}
+
+/* pseudo class */
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: pink;
+}
+p:active{
+    font-size: 30px;
+    font-weight: 700;
+}
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+/* pseudo element  */
+h1::first-letter{
+    color: pink;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    color: rgb(198, 198, 81);
+}
+
+
+/* rules of css */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}
