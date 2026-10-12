@@ -1,0 +1,74 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    /* alpha channnels  */
+    /* background-color: rgba(77, 255, 0, 0.633);
+
+}
+
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.5;
+} */ 
+
+/* css transitions */
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: #4dff00ff;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 02s;
+}
+div:hover{
+    margin-top: 400px;
+    background-color: pink;
+} */
+
+/* css transform */
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform: scale(0.5);
+}
+#three{
+    transform: translate(-100px);
+}
+#four{
+    transform: skew(30deg);
+}
+#five{
+    transform: rotate(30deg) translate(150px);
+}
